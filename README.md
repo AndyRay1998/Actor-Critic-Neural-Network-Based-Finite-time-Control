@@ -1,5 +1,5 @@
 # AC-FTC
-"Actor-Critic Neural Network Based Finite-time Control for Uncertain Robotic Systems"
+"Actor-Critic Neural Network Based Finite-time Control for Uncertain Robotic Systems"  
 Terminal sliding mode is utilized to ensure finite settling time, and actor-critic network is to ensure robustness.  
 We use RBF network for actor and critic approximator, and continuous sigmoid function for reward calculation.  
 The critic is updated based on Recursive Least Square, and actor is based on TD(0) standard policy gradient.  
